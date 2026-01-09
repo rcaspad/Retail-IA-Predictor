@@ -70,7 +70,7 @@ if generate_button:
                 # Mostrar gráfico interactivo
                 st.markdown("### 📊 Gráfico de Predicción")
                 fig = plot_plotly(model, forecast)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
                 
                 # Mostrar tabla con últimos 5 días predichos
                 st.markdown("### 📋 Últimos 5 Días Predichos")

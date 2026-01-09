@@ -5,6 +5,8 @@
 ![Machine Learning](https://img.shields.io/badge/Models-Prophet%20%7C%20XGBoost-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://retail-ia-predictor-bgy835kdtgkhqrakrnszkc.streamlit.app/)
+
 **Sistema End-to-End de Inteligencia Artificial para Retail.** Esta solución permite predecir ventas futuras, identificar clientes en riesgo de abandono (Churn) y visualizar métricas clave de negocio mediante un dashboard interactivo.
 
 ---

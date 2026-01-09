@@ -1,0 +1,63 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Notebooks Jupyter
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Datos crudos (evitar copiar datos innecesarios)
+data/raw/
+data/external/
+
+# Documentación
+docs/
+*.md
+README.md
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Modelos entrenados (opcional, comentar si quieres incluirlos)
+# models/*.pkl
+# models/*.joblib
